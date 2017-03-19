@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTV", "WebTV\WebTV.csproj", "{130BD4D6-3053-48F7-8C0F-FEF8B40BFF84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{E7A18C57-80EF-432B-B9B9-48BEAE6AEEBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{B2335B53-6830-466E-942D-6F84F8E62223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseClasses", "BaseClasses\BaseClasses.csproj", "{978D57F3-93C3-45E9-8FAA-BD2C458AF200}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferenceLib", "ReferenceLib", "{EED38882-B59B-426A-8EAF-1AA6034B4F79}"
+	ProjectSection(SolutionItems) = preProject
+		ReferenceLib\Enyim.Caching.dll = ReferenceLib\Enyim.Caching.dll
+		ReferenceLib\log4net.dll = ReferenceLib\log4net.dll
+		ReferenceLib\MemcachedProviders.dll = ReferenceLib\MemcachedProviders.dll
+		ReferenceLib\MoonSharp.Interpreter.dll = ReferenceLib\MoonSharp.Interpreter.dll
+		ReferenceLib\MoonSharp.Interpreter.pdb = ReferenceLib\MoonSharp.Interpreter.pdb
+		ReferenceLib\MoonSharp.Interpreter.XML = ReferenceLib\MoonSharp.Interpreter.XML
+		ReferenceLib\Newtonsoft.Json.dll = ReferenceLib\Newtonsoft.Json.dll
+		ReferenceLib\ServiceStack.Text.dll = ReferenceLib\ServiceStack.Text.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{2E4D92F7-D73A-4795-AD4D-E108E986FA70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLLTests", "BLLTests\BLLTests.csproj", "{4061E1F5-CE2E-4E25-A2D7-46E86201EB5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{130BD4D6-3053-48F7-8C0F-FEF8B40BFF84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130BD4D6-3053-48F7-8C0F-FEF8B40BFF84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130BD4D6-3053-48F7-8C0F-FEF8B40BFF84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130BD4D6-3053-48F7-8C0F-FEF8B40BFF84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A18C57-80EF-432B-B9B9-48BEAE6AEEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A18C57-80EF-432B-B9B9-48BEAE6AEEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A18C57-80EF-432B-B9B9-48BEAE6AEEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A18C57-80EF-432B-B9B9-48BEAE6AEEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2335B53-6830-466E-942D-6F84F8E62223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2335B53-6830-466E-942D-6F84F8E62223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2335B53-6830-466E-942D-6F84F8E62223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2335B53-6830-466E-942D-6F84F8E62223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{978D57F3-93C3-45E9-8FAA-BD2C458AF200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978D57F3-93C3-45E9-8FAA-BD2C458AF200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978D57F3-93C3-45E9-8FAA-BD2C458AF200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978D57F3-93C3-45E9-8FAA-BD2C458AF200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4D92F7-D73A-4795-AD4D-E108E986FA70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4D92F7-D73A-4795-AD4D-E108E986FA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4D92F7-D73A-4795-AD4D-E108E986FA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4D92F7-D73A-4795-AD4D-E108E986FA70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4061E1F5-CE2E-4E25-A2D7-46E86201EB5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4061E1F5-CE2E-4E25-A2D7-46E86201EB5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4061E1F5-CE2E-4E25-A2D7-46E86201EB5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4061E1F5-CE2E-4E25-A2D7-46E86201EB5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{130BD4D6-3053-48F7-8C0F-FEF8B40BFF84}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebTV</RootNamespace>
+    <AssemblyName>WebTV</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\dashboard.css" />
+    <Content Include="css\OpenSans.css" />
+    <Content Include="css\PoiretOne.css" />
+    <Content Include="css\popuo-box.css" />
+    <Content Include="css\style.css" />
+    <Content Include="ctps_376_ol\about.html" />
+    <Content Include="ctps_376_ol\copyright.html" />
+    <Content Include="ctps_376_ol\creators.html" />
+    <Content Include="ctps_376_ol\css\bootstrap.min.css" />
+    <Content Include="ctps_376_ol\css\dashboard.css" />
+    <Content Include="ctps_376_ol\css\OpenSans.css" />
+    <Content Include="ctps_376_ol\css\PoiretOne.css" />
+    <Content Include="ctps_376_ol\css\popuo-box.css" />
+    <Content Include="ctps_376_ol\css\style.css" />
+    <Content Include="ctps_376_ol\developers.html" />
+    <Content Include="ctps_376_ol\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="ctps_376_ol\history.html" />
+    <Content Include="ctps_376_ol\images\12.png" />
+    <Content Include="ctps_376_ol\images\13.png" />
+    <Content Include="ctps_376_ol\images\9.png" />
+    <Content Include="ctps_376_ol\images\behance.png" />
+    <Content Include="ctps_376_ol\images\c.jpg" />
+    <Content Include="ctps_376_ol\images\c1.jpg" />
+    <Content Include="ctps_376_ol\images\c2.jpg" />
+    <Content Include="ctps_376_ol\images\c3.jpg" />
+    <Content Include="ctps_376_ol\images\ch1.jpg" />
+    <Content Include="ctps_376_ol\images\ch1.png" />
+    <Content Include="ctps_376_ol\images\ch2.jpg" />
+    <Content Include="ctps_376_ol\images\ch3.jpg" />
+    <Content Include="ctps_376_ol\images\ch4.jpg" />
+    <Content Include="ctps_376_ol\images\comment.png" />
+    <Content Include="ctps_376_ol\images\create.jpg" />
+    <Content Include="ctps_376_ol\images\dev-img.jpg" />
+    <Content Include="ctps_376_ol\images\dribbble.png" />
+    <Content Include="ctps_376_ol\images\e1.jpg" />
+    <Content Include="ctps_376_ol\images\e2.jpg" />
+    <Content Include="ctps_376_ol\images\e3.jpg" />
+    <Content Include="ctps_376_ol\images\e4.jpg" />
+    <Content Include="ctps_376_ol\images\eg1.jpg" />
+    <Content Include="ctps_376_ol\images\eg2.jpg" />
+    <Content Include="ctps_376_ol\images\eg3.jpg" />
+    <Content Include="ctps_376_ol\images\eg4.jpg" />
+    <Content Include="ctps_376_ol\images\fb.png" />
+    <Content Include="ctps_376_ol\images\fb1.png" />
+    <Content Include="ctps_376_ol\images\g.jpg" />
+    <Content Include="ctps_376_ol\images\g1.jpg" />
+    <Content Include="ctps_376_ol\images\g2.jpg" />
+    <Content Include="ctps_376_ol\images\g3.jpg" />
+    <Content Include="ctps_376_ol\images\gm1.jpg" />
+    <Content Include="ctps_376_ol\images\gm2.jpg" />
+    <Content Include="ctps_376_ol\images\gm3.jpg" />
+    <Content Include="ctps_376_ol\images\gm4.jpg" />
+    <Content Include="ctps_376_ol\images\google.png" />
+    <Content Include="ctps_376_ol\images\h-arrow.png" />
+    <Content Include="ctps_376_ol\images\h1.jpg" />
+    <Content Include="ctps_376_ol\images\h2.jpg" />
+    <Content Include="ctps_376_ol\images\h3.jpg" />
+    <Content Include="ctps_376_ol\images\h4.jpg" />
+    <Content Include="ctps_376_ol\images\i.jpg" />
+    <Content Include="ctps_376_ol\images\like.png" />
+    <Content Include="ctps_376_ol\images\lines.png" />
+    <Content Include="ctps_376_ol\images\linkedin.png" />
+    <Content Include="ctps_376_ol\images\logo.png" />
+    <Content Include="ctps_376_ol\images\m1.jpg" />
+    <Content Include="ctps_376_ol\images\m2.jpg" />
+    <Content Include="ctps_376_ol\images\m3.jpg" />
+    <Content Include="ctps_376_ol\images\m4.jpg" />
+    <Content Include="ctps_376_ol\images\m5.jpg" />
+    <Content Include="ctps_376_ol\images\m6.jpg" />
+    <Content Include="ctps_376_ol\images\ma1.jpg" />
+    <Content Include="ctps_376_ol\images\ma2.jpg" />
+    <Content Include="ctps_376_ol\images\ma3.jpg" />
+    <Content Include="ctps_376_ol\images\ma4.jpg" />
+    <Content Include="ctps_376_ol\images\ma5.jpg" />
+    <Content Include="ctps_376_ol\images\ma6.jpg" />
+    <Content Include="ctps_376_ol\images\mt1.jpg" />
+    <Content Include="ctps_376_ol\images\mt2.jpg" />
+    <Content Include="ctps_376_ol\images\mt3.jpg" />
+    <Content Include="ctps_376_ol\images\mt4.jpg" />
+    <Content Include="ctps_376_ol\images\mt5.jpg" />
+    <Content Include="ctps_376_ol\images\mt6.jpg" />
+    <Content Include="ctps_376_ol\images\mv.png" />
+    <Content Include="ctps_376_ol\images\mv1.jpg" />
+    <Content Include="ctps_376_ol\images\mv2.jpg" />
+    <Content Include="ctps_376_ol\images\mv3.jpg" />
+    <Content Include="ctps_376_ol\images\mv4.jpg" />
+    <Content Include="ctps_376_ol\images\my1.jpg" />
+    <Content Include="ctps_376_ol\images\my2.jpg" />
+    <Content Include="ctps_376_ol\images\my3.jpg" />
+    <Content Include="ctps_376_ol\images\my4.jpg" />
+    <Content Include="ctps_376_ol\images\my5.jpg" />
+    <Content Include="ctps_376_ol\images\my6.jpg" />
+    <Content Include="ctps_376_ol\images\n1.jpg" />
+    <Content Include="ctps_376_ol\images\n10.jpg" />
+    <Content Include="ctps_376_ol\images\n11.jpg" />
+    <Content Include="ctps_376_ol\images\n12.jpg" />
+    <Content Include="ctps_376_ol\images\n2.jpg" />
+    <Content Include="ctps_376_ol\images\n3.jpg" />
+    <Content Include="ctps_376_ol\images\n4.jpg" />
+    <Content Include="ctps_376_ol\images\n5.jpg" />
+    <Content Include="ctps_376_ol\images\n6.jpg" />
+    <Content Include="ctps_376_ol\images\n7.jpg" />
+    <Content Include="ctps_376_ol\images\n8.jpg" />
+    <Content Include="ctps_376_ol\images\n9.jpg" />
+    <Content Include="ctps_376_ol\images\pinterest.png" />
+    <Content Include="ctps_376_ol\images\pr1.png" />
+    <Content Include="ctps_376_ol\images\pr2.png" />
+    <Content Include="ctps_376_ol\images\r1.jpg" />
+    <Content Include="ctps_376_ol\images\r2.jpg" />
+    <Content Include="ctps_376_ol\images\r3.jpg" />
+    <Content Include="ctps_376_ol\images\r4.jpg" />
+    <Content Include="ctps_376_ol\images\r5.jpg" />
+    <Content Include="ctps_376_ol\images\r6.jpg" />
+    <Content Include="ctps_376_ol\images\rss.png" />
+    <Content Include="ctps_376_ol\images\s1.jpg" />
+    <Content Include="ctps_376_ol\images\select-arrow.png" />
+    <Content Include="ctps_376_ol\images\social.png" />
+    <Content Include="ctps_376_ol\images\sp1.jpg" />
+    <Content Include="ctps_376_ol\images\sp2.jpg" />
+    <Content Include="ctps_376_ol\images\sp3.jpg" />
+    <Content Include="ctps_376_ol\images\sp4.jpg" />
+    <Content Include="ctps_376_ol\images\sp5.jpg" />
+    <Content Include="ctps_376_ol\images\sp6.jpg" />
+    <Content Include="ctps_376_ol\images\t1.jpg" />
+    <Content Include="ctps_376_ol\images\t2.jpg" />
+    <Content Include="ctps_376_ol\images\t3.jpg" />
+    <Content Include="ctps_376_ol\images\themes.png" />
+    <Content Include="ctps_376_ol\images\tm1.jpg" />
+    <Content Include="ctps_376_ol\images\tm2.jpg" />
+    <Content Include="ctps_376_ol\images\tm3.jpg" />
+    <Content Include="ctps_376_ol\images\tm4.jpg" />
+    <Content Include="ctps_376_ol\images\try-banner.jpg" />
+    <Content Include="ctps_376_ol\images\try.jpg" />
+    <Content Include="ctps_376_ol\images\tv.png" />
+    <Content Include="ctps_376_ol\images\twitter.png" />
+    <Content Include="ctps_376_ol\images\u12.png" />
+    <Content Include="ctps_376_ol\images\view.png" />
+    <Content Include="ctps_376_ol\images\we1.jpg" />
+    <Content Include="ctps_376_ol\images\we2.jpg" />
+    <Content Include="ctps_376_ol\images\we3.jpg" />
+    <Content Include="ctps_376_ol\images\we4.jpg" />
+    <Content Include="ctps_376_ol\images\whatsapp.png" />
+    <Content Include="ctps_376_ol\index.html" />
+    <Content Include="ctps_376_ol\js\bootstrap.min.js" />
+    <Content Include="ctps_376_ol\js\jquery-1.11.1.min.js" />
+    <Content Include="ctps_376_ol\js\jquery.magnific-popup.js" />
+    <Content Include="ctps_376_ol\js\jquery.polyglot.language.switcher.js" />
+    <Content Include="ctps_376_ol\js\modernizr.custom.min.js" />
+    <Content Include="ctps_376_ol\js\responsiveslides.min.js" />
+    <Content Include="ctps_376_ol\movies.html" />
+    <Content Include="ctps_376_ol\news.html" />
+    <Content Include="ctps_376_ol\press.html" />
+    <Content Include="ctps_376_ol\privacy.html" />
+    <Content Include="ctps_376_ol\shows.html" />
+    <Content Include="ctps_376_ol\single.html" />
+    <Content Include="ctps_376_ol\sports.html" />
+    <Content Include="ctps_376_ol\terms.html" />
+    <Content Include="ctps_376_ol\try.html" />
+    <Content Include="ctps_376_ol\upload.html" />
+    <Content Include="ctps_376_ol\说明.txt" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\12.png" />
+    <Content Include="images\13.png" />
+    <Content Include="images\9.png" />
+    <Content Include="images\behance.png" />
+    <Content Include="images\c.jpg" />
+    <Content Include="images\c1.jpg" />
+    <Content Include="images\c2.jpg" />
+    <Content Include="images\c3.jpg" />
+    <Content Include="images\ch1.jpg" />
+    <Content Include="images\ch1.png" />
+    <Content Include="images\ch2.jpg" />
+    <Content Include="images\ch3.jpg" />
+    <Content Include="images\ch4.jpg" />
+    <Content Include="images\comment.png" />
+    <Content Include="images\create.jpg" />
+    <Content Include="images\dev-img.jpg" />
+    <Content Include="images\dribbble.png" />
+    <Content Include="images\e1.jpg" />
+    <Content Include="images\e2.jpg" />
+    <Content Include="images\e3.jpg" />
+    <Content Include="images\e4.jpg" />
+    <Content Include="images\eg1.jpg" />
+    <Content Include="images\eg2.jpg" />
+    <Content Include="images\eg3.jpg" />
+    <Content Include="images\eg4.jpg" />
+    <Content Include="images\fb.png" />
+    <Content Include="images\fb1.png" />
+    <Content Include="images\g.jpg" />
+    <Content Include="images\g1.jpg" />
+    <Content Include="images\g2.jpg" />
+    <Content Include="images\g3.jpg" />
+    <Content Include="images\gm1.jpg" />
+    <Content Include="images\gm2.jpg" />
+    <Content Include="images\gm3.jpg" />
+    <Content Include="images\gm4.jpg" />
+    <Content Include="images\google.png" />
+    <Content Include="images\h-arrow.png" />
+    <Content Include="images\h1.jpg" />
+    <Content Include="images\h2.jpg" />
+    <Content Include="images\h3.jpg" />
+    <Content Include="images\h4.jpg" />
+    <Content Include="images\i.jpg" />
+    <Content Include="images\like.png" />
+    <Content Include="images\lines.png" />
+    <Content Include="images\linkedin.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\m1.jpg" />
+    <Content Include="images\m2.jpg" />
+    <Content Include="images\m3.jpg" />
+    <Content Include="images\m4.jpg" />
+    <Content Include="images\m5.jpg" />
+    <Content Include="images\m6.jpg" />
+    <Content Include="images\ma1.jpg" />
+    <Content Include="images\ma2.jpg" />
+    <Content Include="images\ma3.jpg" />
+    <Content Include="images\ma4.jpg" />
+    <Content Include="images\ma5.jpg" />
+    <Content Include="images\ma6.jpg" />
+    <Content Include="images\mt1.jpg" />
+    <Content Include="images\mt2.jpg" />
+    <Content Include="images\mt3.jpg" />
+    <Content Include="images\mt4.jpg" />
+    <Content Include="images\mt5.jpg" />
+    <Content Include="images\mt6.jpg" />
+    <Content Include="images\mv.png" />
+    <Content Include="images\mv1.jpg" />
+    <Content Include="images\mv2.jpg" />
+    <Content Include="images\mv3.jpg" />
+    <Content Include="images\mv4.jpg" />
+    <Content Include="images\my1.jpg" />
+    <Content Include="images\my2.jpg" />
+    <Content Include="images\my3.jpg" />
+    <Content Include="images\my4.jpg" />
+    <Content Include="images\my5.jpg" />
+    <Content Include="images\my6.jpg" />
+    <Content Include="images\n1.jpg" />
+    <Content Include="images\n10.jpg" />
+    <Content Include="images\n11.jpg" />
+    <Content Include="images\n12.jpg" />
+    <Content Include="images\n2.jpg" />
+    <Content Include="images\n3.jpg" />
+    <Content Include="images\n4.jpg" />
+    <Content Include="images\n5.jpg" />
+    <Content Include="images\n6.jpg" />
+    <Content Include="images\n7.jpg" />
+    <Content Include="images\n8.jpg" />
+    <Content Include="images\n9.jpg" />
+    <Content Include="images\pinterest.png" />
+    <Content Include="images\pr1.png" />
+    <Content Include="images\pr2.png" />
+    <Content Include="images\r1.jpg" />
+    <Content Include="images\r2.jpg" />
+    <Content Include="images\r3.jpg" />
+    <Content Include="images\r4.jpg" />
+    <Content Include="images\r5.jpg" />
+    <Content Include="images\r6.jpg" />
+    <Content Include="images\rss.png" />
+    <Content Include="images\s1.jpg" />
+    <Content Include="images\select-arrow.png" />
+    <Content Include="images\social.png" />
+    <Content Include="images\sp1.jpg" />
+    <Content Include="images\sp2.jpg" />
+    <Content Include="images\sp3.jpg" />
+    <Content Include="images\sp4.jpg" />
+    <Content Include="images\sp5.jpg" />
+    <Content Include="images\sp6.jpg" />
+    <Content Include="images\t1.jpg" />
+    <Content Include="images\t2.jpg" />
+    <Content Include="images\t3.jpg" />
+    <Content Include="images\themes.png" />
+    <Content Include="images\tm1.jpg" />
+    <Content Include="images\tm2.jpg" />
+    <Content Include="images\tm3.jpg" />
+    <Content Include="images\tm4.jpg" />
+    <Content Include="images\try-banner.jpg" />
+    <Content Include="images\try.jpg" />
+    <Content Include="images\tv.png" />
+    <Content Include="images\twitter.png" />
+    <Content Include="images\u12.png" />
+    <Content Include="images\view.png" />
+    <Content Include="images\we1.jpg" />
+    <Content Include="images\we2.jpg" />
+    <Content Include="images\we3.jpg" />
+    <Content Include="images\we4.jpg" />
+    <Content Include="images\whatsapp.png" />
+    <Content Include="Index.aspx" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\content\user.js" />
+    <Content Include="js\jquery-1.11.1.min.js" />
+    <Content Include="js\jquery.magnific-popup.js" />
+    <Content Include="js\jquery.polyglot.language.switcher.js" />
+    <Content Include="js\modernizr.custom.min.js" />
+    <Content Include="js\responsiveslides.min.js" />
+    <Content Include="Room.aspx" />
+    <Content Include="RoomList.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Room.aspx.cs">
+      <DependentUpon>Room.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Room.aspx.designer.cs">
+      <DependentUpon>Room.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RoomList.aspx.cs">
+      <DependentUpon>RoomList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RoomList.aspx.designer.cs">
+      <DependentUpon>RoomList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebMaster.Master.cs">
+      <DependentUpon>WebMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebMaster.Master.designer.cs">
+      <DependentUpon>WebMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebService\Handler1.ashx.cs">
+      <DependentUpon>Handler1.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="WebService\User.ashx.cs">
+      <DependentUpon>User.ashx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ctps_376_ol\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="ctps_376_ol\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="ctps_376_ol\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="ctps_376_ol\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Properties\PublishProfiles\WebTV.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="WebForm1.aspx" />
+    <Content Include="WebMaster.Master" />
+    <Content Include="WebService\User.ashx" />
+    <Content Include="WebService\Handler1.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseClasses\BaseClasses.csproj">
+      <Project>{978d57f3-93c3-45e9-8faa-bd2c458af200}</Project>
+      <Name>BaseClasses</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{2e4d92f7-d73a-4795-ad4d-e108e986fa70}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{e7a18c57-80ef-432b-b9b9-48beae6aeebb}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>25386</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:25228/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
