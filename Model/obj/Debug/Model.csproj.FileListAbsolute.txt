@@ -1,0 +1,10 @@
+D:\study\FindTV\Model\bin\Debug\Model.dll
+D:\study\FindTV\Model\bin\Debug\Model.pdb
+D:\study\FindTV\Model\obj\Debug\Model.dll
+D:\study\FindTV\Model\obj\Debug\Model.pdb
+D:\study\FindTV\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\web\FindTV\Model\bin\Debug\Model.dll
+E:\web\FindTV\Model\bin\Debug\Model.pdb
+E:\web\FindTV\Model\obj\Debug\Model.dll
+E:\web\FindTV\Model\obj\Debug\Model.pdb
+E:\web\FindTV\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

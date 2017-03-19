@@ -1,0 +1,17 @@
+D:\study\FindTV\WebTV\bin\WebTV.dll.config
+D:\study\FindTV\WebTV\bin\WebTV.dll
+D:\study\FindTV\WebTV\bin\WebTV.pdb
+D:\study\FindTV\WebTV\obj\Release\WebTV.dll
+D:\study\FindTV\WebTV\obj\Release\WebTV.pdb
+D:\study\FindTV\WebTV\bin\BaseClasses.dll
+D:\study\FindTV\WebTV\bin\BLL.dll
+D:\study\FindTV\WebTV\bin\Model.dll
+D:\study\FindTV\WebTV\bin\Newtonsoft.Json.dll
+D:\study\FindTV\WebTV\bin\Enyim.Caching.dll
+D:\study\FindTV\WebTV\bin\ServiceStack.Text.dll
+D:\study\FindTV\WebTV\bin\Data.dll
+D:\study\FindTV\WebTV\bin\BaseClasses.pdb
+D:\study\FindTV\WebTV\bin\BLL.pdb
+D:\study\FindTV\WebTV\bin\Model.pdb
+D:\study\FindTV\WebTV\bin\Data.pdb
+D:\study\FindTV\WebTV\obj\Release\WebTV.csprojResolveAssemblyReference.cache

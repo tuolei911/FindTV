@@ -1,0 +1,14 @@
+D:\study\FindTV\BLL\bin\Release\BLL.dll
+D:\study\FindTV\BLL\bin\Release\BLL.pdb
+D:\study\FindTV\BLL\bin\Release\BaseClasses.dll
+D:\study\FindTV\BLL\bin\Release\Data.dll
+D:\study\FindTV\BLL\bin\Release\Model.dll
+D:\study\FindTV\BLL\bin\Release\Newtonsoft.Json.dll
+D:\study\FindTV\BLL\bin\Release\Enyim.Caching.dll
+D:\study\FindTV\BLL\bin\Release\ServiceStack.Text.dll
+D:\study\FindTV\BLL\bin\Release\BaseClasses.pdb
+D:\study\FindTV\BLL\bin\Release\Data.pdb
+D:\study\FindTV\BLL\bin\Release\Model.pdb
+D:\study\FindTV\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+D:\study\FindTV\BLL\obj\Release\BLL.dll
+D:\study\FindTV\BLL\obj\Release\BLL.pdb
